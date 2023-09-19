@@ -3,6 +3,7 @@ import { Box, Stack, Typography, Button } from "@mui/material";
 import HeroBannerImage from "../assets/images/banner.png";
 
 const HeroBanner = () => {
+  console.log("hero");
   return (
     <Box
       sx={{
