@@ -64,7 +64,7 @@ The React Gym App utilizes the following technologies:
 
 - **RapidAPI ExerciseDB**: To display interactive GIFs of exercises.
 
-- **Axios**: A promise-based HTTP client for making API requests.
+
 
 - **Material UI**: Used for styling and responsive design.
 
