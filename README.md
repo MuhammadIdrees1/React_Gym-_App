@@ -1,7 +1,7 @@
 
 # React_Gym_App
 
-![React Gym App](app-screenshot.png)
+![App Screenshot](public/all-devices-black.png)
 
 Welcome to the React Gym App! This application is designed to help users search for exercises, view exercise videos on YouTube, and interactively search for exercises based on body parts. Users can also view detailed information about each exercise. This README will provide you with essential information on how to set up and use this app.
 
