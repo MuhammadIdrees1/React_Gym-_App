@@ -1,70 +1,99 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React_Gym_App
 
-## Available Scripts
+![React Gym App](app-screenshot.png)
 
-In the project directory, you can run:
+Welcome to the React Gym App! This application is designed to help users search for exercises, view exercise videos on YouTube, and interactively search for exercises based on body parts. Users can also view detailed information about each exercise. This README will provide you with essential information on how to set up and use this app.
 
-### `npm start`
+## Table of Contents
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The React Gym App comes with the following features:
 
-### `npm run eject`
+- **Exercise Search**: Users can search for exercises using keywords.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **YouTube Video Integration**: When viewing exercise details, users can watch related YouTube videos to learn how to perform the exercise correctly.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Interactive GIFs**: Users can view interactive GIFs that demonstrate how to perform the exercise.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Exercise Filtering**: Users can filter exercises by body parts (e.g., legs, arms, chest) to find specific exercises.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Exercise Details**: Users can view detailed information about each exercise, including the name, description, equipment needed, and muscle groups worked.
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Exercise Search**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Enter keywords related to the exercise you are looking for in the search bar.
+- Click the "Search" button or press Enter to initiate the search.
 
-### Code Splitting
+2. **View Exercise Details**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Click on an exercise card from the search results to view detailed information about that exercise.
+- You can also watch related YouTube videos and view interactive GIFs for the exercise.
 
-### Analyzing the Bundle Size
+3. **Exercise Filtering**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Use the dropdown menu to filter exercises by body part.
+- Select a body part from the list, and the app will display exercises related to that body part.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Technologies Used
 
-### Advanced Configuration
+The React Gym App utilizes the following technologies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **React**: The JavaScript library for building user interfaces.
 
-### Deployment
+- **React Router**: Used for routing within the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **YouTube API**: To fetch and display YouTube videos related to exercises.
 
-### `npm run build` fails to minify
+- **Giphy API**: To display interactive GIFs of exercises.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Axios**: A promise-based HTTP client for making API requests.
+
+- **Bootstrap**: Used for styling and responsive design.
+
+- **FontAwesome**: For icons.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. **Fork the repository**: Click the "Fork" button on the top right corner of the repository's page to create your own copy.
+
+2. **Create a new branch**: Create a new branch in your forked repository for your feature or bug fix. Use a descriptive branch name that reflects the purpose of your changes.
+
+3. **Make your changes**: Write your code, implement your feature, or fix the bug in your branch.
+
+4. **Commit your changes**: Commit your changes with clear and concise commit messages that describe the purpose of each commit.
+
+5. **Push your changes**: Push your committed changes to your forked repository on GitHub.
+
+6. **Create a pull request**: Go to the original repository and click the "New Pull Request" button. Describe your changes in the pull request, including any relevant details or context.
+
+7. **Review and discuss**: Participate in the discussion and address any feedback or questions from the maintainers or other contributors.
+
+8. **Merge**: Once your pull request is approved and passes any required tests, it will be merged into the main repository.
+
+Thank you for contributing to the React Gym App!
+
+
+
+## License
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/)
+ License. See the LICENSE file for details.
+
