@@ -60,15 +60,15 @@ The React Gym App utilizes the following technologies:
 
 - **React Router**: Used for routing within the application.
 
-- **YouTube API**: To fetch and display YouTube videos related to exercises.
+- **RapidAPI YouTube Search**: To fetch and display YouTube videos related to exercises.
 
-- **Giphy API**: To display interactive GIFs of exercises.
+- **RapidAPI ExerciseDB**: To display interactive GIFs of exercises.
 
 - **Axios**: A promise-based HTTP client for making API requests.
 
-- **Bootstrap**: Used for styling and responsive design.
+- **Material UI**: Used for styling and responsive design.
 
-- **FontAwesome**: For icons.
+- **Material UI Icons**: For icons.
 
 ## Contributing
 
